@@ -1,5 +1,7 @@
 import { Navigate, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import { AuthProvider, useAuth } from './AuthContext'; // Import useAuth here
+import Counter from './Counter';
+import Login from './Login';
 
 const App = () => {
     return (
