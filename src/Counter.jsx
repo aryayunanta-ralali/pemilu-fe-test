@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-function App() {
+function Counter() {
   const [votes, setVotes] = useState(0);
 
   const handleVote = async (type) => {
@@ -36,4 +36,4 @@ function App() {
   );
 }
 
-export default App;
+export default Counter;
